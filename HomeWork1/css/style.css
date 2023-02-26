@@ -1,0 +1,51 @@
+body{
+    background-color: #FFE4B5;
+}
+
+nav{
+    display: flex;
+    background-color: #FFA500;
+    border-radius: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.menu{
+    padding-left: 150px;
+    display: flex;
+    font-size: 30px;
+}
+
+.biography{
+    background-color: #FFA500;
+    
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    
+
+}
+
+.contacts{
+    background-color: #FFA500;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.ComeBack{
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #FFA500;
+    padding-top: 10px;
+    border-radius: 10px;
+}
