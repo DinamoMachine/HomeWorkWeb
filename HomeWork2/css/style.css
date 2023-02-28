@@ -77,10 +77,9 @@ body{
     font-size: 30px;
     border: solid #FFFFFF;
     border-radius: 25px;
-    width: 7%;
+    width: fit-content;
     text-align: center;
-    margin-left: 45%;
-    margin-top: 1%;
+    margin: 15px auto 0 auto;
 }
 
 .buy_goods:hover{
@@ -92,4 +91,26 @@ body{
 .goods_container{
     display: flex;
     margin-left: 27%;
+}
+
+.buy_button{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    height: 100%;
+    padding: 30px;
+}
+.buy_button:hover{
+    color: #000000;
+}
+
+.menu_button{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    height: 100%;
+}
+
+.menu_button:hover{
+    color: #000000;
 }
