@@ -1,0 +1,234 @@
+html{
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    height: auto;
+}
+.wrapper{
+    background-color: #06030F;
+    height: 100%;
+    padding-top: 20px;
+}
+.container{
+    width: 1260px;
+    margin: 0 auto;
+}
+.header_container{
+    color: #FFFFFF;
+    
+}
+.header_container_level_1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.header_menu_container{
+    display: flex;
+    margin-left: 88px;
+    align-items: center;
+    font-size: 16px;
+    word-wrap: normal;
+    
+}
+
+.header_menu_container a:hover{
+    color: #77BE1D;
+}
+
+.header_menu_left a{
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.header_menu_middle{
+    margin-left: 76px;
+    white-space: nowrap;
+    display: flex;
+    gap: 30px;
+}
+.header_menu_middle a{
+    width: auto;
+    display: block;
+    color: #FFFFFF;
+}
+
+.header_menu_right{
+    display: flex;
+    width: auto;
+    margin-left: 150px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.img_profile{
+    margin-left: 15px;
+    background-color: #06030F;
+    border-style: none;
+    border-radius: 100%;
+}
+
+.language_celector_container select{
+    background-color: #06030F;
+    color: #FFFFFF;
+}
+.language_celector_container option{
+    color: #FFFFFF;
+    background-color: #13101B;
+}
+
+.header_container_level_2{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 42px;
+}
+.img_logo{
+    margin-right: 15px;
+}
+
+.menu_line{
+    margin-left: 60px;
+}
+.menu_part_1{
+    width: 22px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.menu_part_2{
+    width: 14px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.search{
+    position: relative;
+}
+.search_img{
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 640px;
+}
+.search_area{
+    background-color: rgba(155, 154, 159, 0.05);
+    padding-left: 20px;
+    width: 645px;
+    height: 65px;
+    border-radius: 15px;
+    margin-left: 35px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.search_area::-webkit-search-decoration,
+.search_area::-webkit-search-cancel-button,
+.search_area::-webkit-search-results-button,
+.search_area::-webkit-search-results-decoration { display: none; }
+
+.right_header_container_level_2{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.right_header_container_level_2 p{
+    color: #77BE1D;
+}
+.heart_img{
+    margin-left: 45px;
+}
+.basket_img{
+    margin-left: 20px;
+    position: relative;
+}
+
+.numberInBasket p{
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.numberInBasket{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    background-color: rgba(21, 15, 68, 0.25);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.header_line_border{
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    border-style: none;
+    background-color: #13101B;
+}
+main{
+    padding-top: 45px;
+}
+
+.main_scroll_img_game{
+    height: 700px;
+    display: flex;
+}
+
+.main_scroll_img_left{
+    position: relative;
+    right: 340px;
+    bottom: 680px;
+}
+
+.left_arrow{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    bottom: 360px;
+    border-radius: 50px;
+    background-color:  rgba(196, 196, 196, 0.05);
+    backdrop-filter: blur(15px);
+}
+
+.left_arrow img{
+    margin-top: 35%;
+}
+
+.right_arrow{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 1240px;
+    bottom: 410px;
+    border-radius: 50px;
+    background-color:  rgba(196, 196, 196, 0.05);
+    backdrop-filter: blur(15px);
+}
+
+.right_arrow img{
+    margin-top: 35%;
+}
+.main_scroll_img_left{
+    position: relative;
+    right: 1575px;
+    top: 10px;
+}
+
+.main_csroll_img_right{
+    position: relative;
+    right: 285px;
+    top: 10px;
+}
