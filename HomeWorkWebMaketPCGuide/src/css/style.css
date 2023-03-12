@@ -46,7 +46,7 @@ body{
     color: #FFFFFF;
 }
 
-.main__screen_header{
+.main__screen__header{
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -70,6 +70,11 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-right: 30px;
+}
+
+.timer__item:last-child{
+    margin-right: 0px;
 }
 
 .timer__item h3{
@@ -79,7 +84,95 @@ body{
 }
 
 .timer__item span{
+    margin-top: 10px;
     color: #FFFFFF;
     opacity: 0.4;
     font-size: 16px;
+}
+
+.guide__order{
+    height: 130px;
+    margin-top: 218px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+
+.guide__order_content{
+    display: flex;
+    align-items: center;
+}
+
+.button__link{
+    display: flex;
+    width: 169px;
+    height: 44px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;   
+}
+
+.guide_order_information{
+    margin-left: 81px;
+    
+    width: 250px;
+}
+
+.guide__order_number_of_students{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide__order__completed__the__guide{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide__order_information__text{
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-size: 16px;
+}
+
+.guide__order_information__number{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.earned__by__students{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide__order__money__indicator{
+    margin-left: 80px;
+}
+
+.guide__order__indicator__line{
+    margin-top: 10px;
+}
+
+.white__line{
+    width: 714px;
+    height: 6px;
+    background-color: #FFFFFF;
+}
+
+.gradient__line{
+    width: 440px;
+    height: 6px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.zero__to__one__hundred{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
