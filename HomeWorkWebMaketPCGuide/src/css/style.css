@@ -338,3 +338,33 @@ body{
     line-height: 160%;
     text-align: center;
 }
+
+.partners{
+    margin-top: 230px;
+}
+
+.partners__title{
+    display: flex;
+}
+
+.partners__title_text{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 52px;
+}
+
+.partners__table{
+    margin: 0 auto;
+    margin-top: 90px;
+    border-collapse: collapse;
+    border: 8px solid #000000;
+}
+
+.partners__table th{
+    width: 330px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
