@@ -3,7 +3,11 @@ body{
 }
 
 .wrapper{
-    background-color: #000;
+    background-color: #333;
+    background: url(../img/bgMain.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
     height: auto;
 }
 
@@ -96,7 +100,7 @@ body{
     font-size: 16px;
 }
 
-.guide__order{
+.main__guide__order{
     height: 130px;
     margin-top: 218px;
     background-color: #121212;
@@ -210,7 +214,7 @@ body{
     line-height: 25.6px;
 }
 
-.fast__start{
+.main__content__fast__start{
     margin-top: 230px;
 }
 
@@ -294,12 +298,9 @@ body{
     line-height: 160%;
 }
 
-.get__a__job__now{
+.main__content__get__a__job__now{
     width: 1236px;
     margin: 0 auto;
-}
-
-.get__a__job__now{
     margin-top: 200px;
 }
 
@@ -339,7 +340,7 @@ body{
     text-align: center;
 }
 
-.partners{
+.main__content__partners{
     margin-top: 230px;
 }
 
@@ -359,7 +360,7 @@ body{
     margin: 0 auto;
     margin-top: 90px;
     border-collapse: collapse;
-    border: 8px solid #000000;
+    border: 8px solid rgba(255, 255, 255, 0);
 }
 
 .partners__table th{
@@ -368,3 +369,225 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.main__content__training__program{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main__content__training__program__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content__training__program__title__img{
+    display: block;
+    margin: 0 auto;
+}
+
+.main__content__training__program__title__text{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main__content__training__program__subtitle{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 160%;
+}
+
+.main__content__training__program__progress__weeks{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+._progress__weeks__title{
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+._progress__weeks__subtitle{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: right;
+}
+
+.rightPart__text__subtitle{
+    text-align: left;
+}
+
+.progress__weeks__leftPart{
+    margin-top: 10px;
+}
+._leftWeeks{
+    margin-bottom: 95px;
+    display: flex;
+    align-items: center;
+}
+
+._rightWeeks{
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+}
+
+._leftWeeks:first-child{
+    margin-bottom: 85px;
+}
+
+.leftPart__line{
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-left: 20px;
+}
+
+.rightPart__line{
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 20px;
+}
+
+.leftPart__text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.progress__weeks__middlePart{
+    width: 6px;
+    height: 677px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.main__content__your__teachers{
+    margin-top: 200px;
+}
+.your__teachers__title{
+    display: flex;
+}
+
+.your__teachers__title h2{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-top: 70px;
+}
+
+.your__teachers__content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 113px;
+}
+
+._teacher__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameTeacher{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.specialization{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.button__biography{
+
+    margin: 30px auto 0 auto;
+    width: 143px;
+    height: 44px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer__subtitle{
+    margin-top: 30px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 160%;
+}
+
+.emailForm{
+    width: 492px;
+    height: 44px;
+    background:rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 170px;
+    color: #FFFFFF;
+}
+
+.emailForm::placeholder{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.subscribe{
+    position: relative;
+    margin-top: 60px;
+}
+.footerEmailButton{
+    position: absolute;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    width: 160px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    right: 0;
+}
+
+.social__media{
+    margin-top: 40px;
+    margin-bottom: 106px;
+    display: flex;
+    gap: 30px;
+}
+
+._social__media__bg{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
