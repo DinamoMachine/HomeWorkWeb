@@ -1,8 +1,8 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.wrapper{
+.wrapper {
     background-color: #333;
     background: url(../img/bgMain.png);
     background-position: center;
@@ -11,12 +11,12 @@ body{
     height: auto;
 }
 
-._container{
+._container {
     width: 1300px;
     margin: 0 auto;
 }
 
-.bg__main__screen{
+.bg__main__screen {
     margin: 0 auto;
     height: 960px;
     background: url(../img/main-screen__bgc.jpg);
@@ -25,7 +25,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.header{
+.header {
     display: flex;
     width: 1760px;
     padding-top: 38px;
@@ -33,17 +33,21 @@ body{
     align-items: center;
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     margin-left: 522px;
     gap: 56px;
 }
-.menu__link{
+.menu__link {
     color: #FFFFFF;
     font-size: 16px;
 }
 
-.personal__area_button{
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.personal__area_button {
     margin-left: 270px;
     width: 183px;
     height: 44px;
@@ -56,7 +60,11 @@ body{
     color: #FFFFFF;
 }
 
-.main__screen__header{
+.personal__area_button:hover {
+    border: solid 2px #FFFFFF;
+}
+
+.main__screen__header {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -64,15 +72,15 @@ body{
     color: #FFFFFF;
     margin-top: 188px; 
 }
-.main__screen_timer{
+.main__screen_timer {
     margin-top: 55px;
 }
 
-.timer{
+.timer {
     display: flex;
 }
 
-.timer__item{
+.timer__item {
     width: 102px;
     height: 112px;
     background-color: #121212;
@@ -83,24 +91,24 @@ body{
     margin-right: 30px;
 }
 
-.timer__item:last-child{
+.timer__item:last-child {
     margin-right: 0px;
 }
 
-.timer__item h3{
+.timer__item h3 {
     color: #FFFFFF;
     font-size: 36px;
     font-weight: 700;
 }
 
-.timer__item span{
+.timer__item span {
     margin-top: 10px;
     color: #FFFFFF;
     opacity: 0.4;
     font-size: 16px;
 }
 
-.main__guide__order{
+.main__guide__order {
     height: 130px;
     margin-top: 218px;
     background-color: #121212;
@@ -108,12 +116,12 @@ body{
     align-items: center;
 }
 
-.guide__order_content{
+.guide__order_content {
     display: flex;
     align-items: center;
 }
 
-.button__link{
+.button__link {
     display: flex;
     width: 169px;
     height: 44px;
@@ -126,87 +134,91 @@ body{
     font-size: 16px;   
 }
 
-.guide_order_information{
+.button__link:hover {
+    border: solid 2px #FFFFFF;
+}
+
+.guide_order_information {
     margin-left: 81px;
     
     width: 250px;
 }
 
-.guide__order_number_of_students{
+.guide__order_number_of_students {
     display: flex;
     justify-content: space-between;
 }
 
-.guide__order__completed__the__guide{
+.guide__order__completed__the__guide {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.guide__order_information__text{
+.guide__order_information__text {
     color: #FFFFFF;
     opacity: 0.4;
     font-size: 16px;
 }
 
-.guide__order_information__number{
+.guide__order_information__number {
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-.earned__by__students{
+.earned__by__students {
     width: 280px;
     display: flex;
     justify-content: space-between;
 }
 
-.guide__order__money__indicator{
+.guide__order__money__indicator {
     margin-left: 80px;
 }
 
-.guide__order__indicator__line{
+.guide__order__indicator__line {
     margin-top: 10px;
 }
 
-.white__line{
+.white__line {
     width: 714px;
     height: 6px;
     background-color: #FFFFFF;
 }
 
-.gradient__line{
+.gradient__line {
     width: 440px;
     height: 6px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 
-.zero__to__one__hundred{
+.zero__to__one__hundred {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.main__content{
+.main__content {
     margin-top: 200px;
 }
 
-.about__us{
+.about__us {
     display: flex;
     justify-content: space-between;
 }
 
-.about__us__text{
+.about__us__text {
     margin-top: 70px;
 }
 
-.about__us__text__title{
+.about__us__text__title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 48px;
 }
 
-.about__us__text__text{
+.about__us__text__text {
     display: block;
     margin-top: 45px;
     color: #FFFFFF;
@@ -214,16 +226,16 @@ body{
     line-height: 25.6px;
 }
 
-.main__content__fast__start{
+.main__content__fast__start {
     margin-top: 230px;
 }
 
-.fast__start_title{
+.fast__start_title {
     display: flex;
     margin-left: 10px;
 }
 
-.fast__start__title__text{
+.fast__start__title__text {
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 700;
@@ -231,66 +243,66 @@ body{
     margin-top: 40px;
 }
 
-.fast__start__subtitle{
+.fast__start__subtitle {
     margin-top: 50px;
 }
 
-.fast__start__subtitle span{
+.fast__start__subtitle span {
     color: #FFFFFF;
     opacity: 0.5;
     font-size: 16px;
     line-height: 160%;
 }
 
-.fast__start__content{
+.fast__start__content {
     display: flex;
     margin-top: 80px;
 }
 
-._box{
+._box {
     width: 324px;
 }
 
-._gradient{
+._gradient {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
-.gradient__box{
+.gradient__box {
     height: 80px;
     margin-top: 20px;
     display: flex;
     align-items: center;
 }
 
-.fast__start__title__box{
+.fast__start__title__box {
     color: #FFFFFF;
     font-size: 36px;
     font-weight: 700;
 }
 
-.gradient__box__100{
+.gradient__box__100 {
     height: 80px;
     flex-grow: 1;
 }
 
-.gradient__box__75{
+.gradient__box__75 {
     height: 60px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     flex-grow: 1;
 }
 
-.gradient__box__50{
+.gradient__box__50 {
     height: 30px;
     flex-grow: 1;
 }
 
-.gradient__box__total{
+.gradient__box__total {
     height: 10px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     flex-grow: 1;
 }
 
-.fast__start__text__box{
+.fast__start__text__box {
     display: block;
     margin-top: 35px;
     color: #FFFFFF;
@@ -298,32 +310,33 @@ body{
     line-height: 160%;
 }
 
-.main__content__get__a__job__now{
+.main__content__get__a__job__now {
     width: 1236px;
     margin: 0 auto;
     margin-top: 200px;
 }
 
-.get__a__job__now__title{
+.get__a__job__now__title {
     text-align: center;
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 700;
 }
 
-._content__box{
+._content__box {
     width: 358px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.get__a__job__now__content{
+
+.get__a__job__now__content {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
 
-.get__a__job__now__content__title{
+.get__a__job__now__content__title {
     margin-top: 60px;
     color: #FFFFFF;
     font-size: 24px;
@@ -331,7 +344,7 @@ body{
     line-height: 140%;
 }
 
-.get__a__job__now__content__text{
+.get__a__job__now__content__text {
     margin-top: 30px;
     color: #FFFFFF;
     opacity: 0.8;
@@ -340,15 +353,15 @@ body{
     text-align: center;
 }
 
-.main__content__partners{
+.main__content__partners {
     margin-top: 230px;
 }
 
-.partners__title{
+.partners__title {
     display: flex;
 }
 
-.partners__title_text{
+.partners__title_text {
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 700;
@@ -356,36 +369,37 @@ body{
     margin-left: 52px;
 }
 
-.partners__table{
+.partners__table {
     margin: 0 auto;
     margin-top: 90px;
     border-collapse: collapse;
     border: 8px solid rgba(255, 255, 255, 0);
 }
 
-.partners__table th{
+.partners__table th {
     width: 330px;
     height: 150px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.main__content__training__program{
+.main__content__training__program {
     margin-top: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.main__content__training__program__title{
+
+.main__content__training__program__title {
     display: flex;
     flex-direction: column;
 }
 
-.main__content__training__program__title__img{
+.main__content__training__program__title__img {
     display: block;
     margin: 0 auto;
 }
 
-.main__content__training__program__title__text{
+.main__content__training__program__title__text {
     margin-top: 30px;
     color: #FFFFFF;
     font-size: 48px;
@@ -393,7 +407,7 @@ body{
     text-align: center;
 }
 
-.main__content__training__program__subtitle{
+.main__content__training__program__subtitle {
     margin-top: 30px;
     color: #FFFFFF;
     font-size: 16px;
@@ -402,18 +416,18 @@ body{
     line-height: 160%;
 }
 
-.main__content__training__program__progress__weeks{
+.main__content__training__program__progress__weeks {
     margin-top: 80px;
     display: flex;
     justify-content: center;
 }
 
-._progress__weeks__title{
+._progress__weeks__title {
     color: #FFFFFF;
     opacity: 0.5;
 }
 
-._progress__weeks__subtitle{
+._progress__weeks__subtitle {
     margin-top: 15px;
     color: #FFFFFF;
     font-size: 18px;
@@ -421,11 +435,11 @@ body{
     text-align: right;
 }
 
-.rightPart__text__subtitle{
+.rightPart__text__subtitle {
     text-align: left;
 }
 
-.progress__weeks__leftPart{
+.progress__weeks__leftPart {
     margin-top: 10px;
 }
 ._leftWeeks{
@@ -434,50 +448,50 @@ body{
     align-items: center;
 }
 
-._rightWeeks{
+._rightWeeks {
     display: flex;
     align-items: center;
     margin-top: 95px;
 }
 
-._leftWeeks:first-child{
+._leftWeeks:first-child {
     margin-bottom: 85px;
 }
 
-.leftPart__line{
+.leftPart__line {
     width: 40px;
     height: 1px;
     background: rgba(255, 255, 255, 0.3);
     margin-left: 20px;
 }
 
-.rightPart__line{
+.rightPart__line {
     width: 40px;
     height: 1px;
     background: rgba(255, 255, 255, 0.3);
     margin-right: 20px;
 }
 
-.leftPart__text{
+.leftPart__text {
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-.progress__weeks__middlePart{
+.progress__weeks__middlePart {
     width: 6px;
     height: 677px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
-.main__content__your__teachers{
+.main__content__your__teachers {
     margin-top: 200px;
 }
-.your__teachers__title{
+.your__teachers__title {
     display: flex;
 }
 
-.your__teachers__title h2{
+.your__teachers__title h2 {
     font-size: 48px;
     color: #FFFFFF;
     font-weight: 700;
@@ -485,34 +499,33 @@ body{
     margin-top: 70px;
 }
 
-.your__teachers__content{
+.your__teachers__content {
     display: flex;
     justify-content: space-around;
     margin-top: 113px;
 }
 
-._teacher__box{
+._teacher__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.nameTeacher{
+.nameTeacher {
     color: #FFFFFF;
     font-size: 24px;
     text-align: center;
     margin-top: 40px;
 }
 
-.specialization{
+.specialization {
     color: #FFFFFF;
     font-size: 16px;
     opacity: 0.8;
     margin-top: 15px;
 }
 
-.button__biography{
-
+.button__biography {
     margin: 30px auto 0 auto;
     width: 143px;
     height: 44px;
@@ -523,20 +536,24 @@ body{
     font-size: 16px;
 }
 
-.footer{
+.button__biography:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.footer {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footer__title{
+.footer__title {
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 700;
 }
 
-.footer__subtitle{
+.footer__subtitle {
     margin-top: 30px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -545,7 +562,7 @@ body{
     line-height: 160%;
 }
 
-.emailForm{
+.emailForm {
     width: 492px;
     height: 44px;
     background:rgba(255, 255, 255, 0.25);
@@ -555,15 +572,17 @@ body{
     color: #FFFFFF;
 }
 
-.emailForm::placeholder{
+.emailForm::placeholder {
     color: #FFFFFF;
     opacity: 0.8;
 }
-.subscribe{
+
+.subscribe {
     position: relative;
     margin-top: 60px;
 }
-.footerEmailButton{
+
+.footerEmailButton {
     position: absolute;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     border-radius: 50px;
@@ -575,14 +594,18 @@ body{
     right: 0;
 }
 
-.social__media{
+.footerEmailButton:hover{
+    border: solid 2px #FFFFFF;
+}
+
+.social__media {
     margin-top: 40px;
     margin-bottom: 106px;
     display: flex;
     gap: 30px;
 }
 
-._social__media__bg{
+._social__media__bg {
     width: 50px;
     height: 50px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
@@ -590,4 +613,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.social__media a:hover {
+    border: solid 3px #FFFFFF;
 }
