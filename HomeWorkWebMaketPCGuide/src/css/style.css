@@ -27,15 +27,16 @@ body {
 
 .header {
     display: flex;
-    width: 1760px;
+    width: 90%;
     padding-top: 38px;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu__list {
     display: flex;
-    margin-left: 522px;
+    
     gap: 56px;
 }
 .menu__link {
@@ -48,7 +49,7 @@ body {
 }
 
 .personal__area_button {
-    margin-left: 270px;
+    
     width: 183px;
     height: 44px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
@@ -114,6 +115,7 @@ body {
     background-color: #121212;
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 
 .guide__order_content {
@@ -175,6 +177,7 @@ body {
 
 .guide__order__money__indicator {
     margin-left: 80px;
+    width: 55%;
 }
 
 .guide__order__indicator__line {
@@ -182,13 +185,13 @@ body {
 }
 
 .white__line {
-    width: 714px;
+    width: 100%;
     height: 6px;
     background-color: #FFFFFF;
 }
 
 .gradient__line {
-    width: 440px;
+    width: calc(100% - 30%);
     height: 6px;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
@@ -201,6 +204,7 @@ body {
 
 .main__content {
     margin-top: 200px;
+    padding: 0 15px;
 }
 
 .about__us {
