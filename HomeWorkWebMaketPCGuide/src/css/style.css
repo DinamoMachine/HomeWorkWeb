@@ -17,7 +17,7 @@ main {
 }
 
 ._container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ main {
 
 .header{
     display: flex;
-    max-width: 1760px;
+    max-width: 95%;
     padding-top: 38px;
     margin: 0 auto;
     align-items: center;
@@ -127,7 +127,7 @@ main {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 67.7%;
+    width: 80%;
 }
 
 .button__link{
@@ -183,7 +183,7 @@ main {
 
 .guide__order__money__indicator{
     margin-left: 80px;
-    width: 60%;
+    width: 55%;
 }
 
 .guide__order__indicator__line{
@@ -673,6 +673,10 @@ main {
     }
     .about__img {
         margin-top: 25px;
+    }
+    .button__link {
+        width: 250px;
+        height: 55px;
     }
 }
 
