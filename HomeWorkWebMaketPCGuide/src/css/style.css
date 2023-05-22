@@ -349,6 +349,8 @@ main {
     justify-content: space-between;
 }
 
+
+
 .get__a__job__now__content__title{
     margin-top: 60px;
     color: #FFFFFF;
@@ -382,17 +384,33 @@ main {
     margin-left: 52px;
 }
 
-.partners__table{
-    margin: 0 auto;
-    margin-top: 90px;
-    border-collapse: collapse;
-    border: 8px solid rgba(255, 255, 255, 0);
+.partners-table{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
-.partners__table th{
-    width: 330px;
-    height: 150px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+.partners-table__top-part {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+.partners-table__bottom-part {
+    display: flex;
+    justify-content: center;
+}
+
+.table-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    border-right: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+.table-item:last-child {
+    border-right: none;
 }
 
 .main__content__training__program{
@@ -711,5 +729,41 @@ main {
     }
     ._teacher__box img {
         width: 150px;
+    }
+
+    .partners-table {
+        flex-direction: row;
+    }
+
+    .partners-table__top-part {
+        flex-direction: column;
+        border-right: solid 1px rgba(255, 255, 255, 0.3);
+        border-bottom: none;
+    }
+    
+    .partners-table__bottom-part {
+        flex-direction: column;
+    }
+
+    .table-item {
+        border: none;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+        height: 120px;
+    }
+
+    .table-item:last-child {
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .progress__weeks__middlePart {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .progress__weeks__middlePart {
+        height: 850px;
     }
 }
