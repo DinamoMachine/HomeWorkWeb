@@ -1,0 +1,25 @@
+.info_button {
+    width: 250px;
+    height: 180px;
+    background: #98FB98;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_button h1 {
+    font-size: 30px;
+}
+
+.result_area {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.output_button {
+    background: #00FF00;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}

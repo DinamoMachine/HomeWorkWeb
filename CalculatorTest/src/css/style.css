@@ -1,11 +1,8 @@
-body {
-    background: #373f4a;
-}
 
 section{
     display: flex;
     justify-content: center;
-    padding: 150px;
+    margin-top: 50px;
 }
 
 .calculator {
@@ -18,7 +15,6 @@ section{
     width: 90%;
     height: 70px;
     margin: 0 auto;
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -41,9 +37,7 @@ section{
     border-radius: 50px;
     margin: 3px 2px 3px 2px;
     font-size: 20px;
-    background: #575553;
     border: 0px;
-    color: #fff;
 }
 
 .zero {
@@ -52,16 +46,68 @@ section{
     border-radius: 50px;
     margin: 3px 2px 3px 2px;
     font-size: 20px;
-    background: #575553;
-    color: #fff;
     border: 0px;
 }
 
 .gray {
     background: #b8b0b0;
-    color: #000;
+    font-weight: 500;
 }
 
 .orange {
     background: #e88e07;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.select_theme {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 230px;
+    height: 60px;
+}
+
+.btn_select_theme {
+    background: none;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.dark {
+    transition: 0.4s;
+    background: #373f4a;
+    color: #fff;
+}
+
+.dark_button {
+    transition: 0.4s;
+    color:#fff;
+    background: #575553;
+}
+
+.dark_block {
+    transition: 0.4s;
+    background: #1c1b1b;
+}
+
+
+
+.light {
+    transition: 0.4s;
+    background: #fff;
+    color: #000;
+}
+
+.light_button {
+    transition: 0.4s;
+    color: #000;
+    background: #E0E0E0;
+}
+
+.light_block {
+    transition: 0.4s;
+    background: #d2d0d0;
 }
